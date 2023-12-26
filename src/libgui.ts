@@ -6,5 +6,6 @@ const gui = new GUI({
 
 const cubeFolder = gui.addFolder("cube");
 const cameraFolder = gui.addFolder("camera");
+const lightFolder = gui.addFolder("light");
 
-export { cubeFolder, cameraFolder };
+export { cubeFolder, cameraFolder, lightFolder };
